@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\n\nbody {\n    font-family: \"Lato\";\n    font-weight: 400;\n    color: #777777;\n    font-size: 22px; }\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU,GAAG;;;AAE7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI,GAAG"
+}
