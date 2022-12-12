@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #777777;
   font-size: 16px;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background-color: #777777;
+  background-color: #f7f7f7;
 }
 
 .header {
@@ -39,10 +39,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  overflow: hidden;
 }
 
 .title-first {
-  font-family: "Lato", sans-serif;
   color: #FFFFFF;
 }
 .title-first__main {
@@ -61,6 +61,8 @@ body {
           animation-delay: 1s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 .title-first__secondary {
   display: block;
@@ -76,6 +78,28 @@ body {
           animation-delay: 1s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  margin-bottom: 65px;
+}
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777777;
+  padding: 15px 40px;
+  background: white;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.btn:active {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 @-webkit-keyframes leftToRight {

@@ -4,7 +4,7 @@
     box-sizing: border-box
 
 body 
-    font-family: "Lato"
+    font-family: 'Lato',sans-serif
     font-weight: 400
     color: #777777
     font-size: 16px
@@ -15,7 +15,7 @@ body
 .container
     // width: 1340px
     // margin: 0 auto   
-    background-color: #777777
+    background-color: #f7f7f7
 
 .header
     position: relative
@@ -35,8 +35,8 @@ body
         left: 50%
         transform: translate(-50%, -50%)
         text-align: center
+        overflow: hidden
 .title-first
-    font-family: 'Lato',sans-serif
     color: #FFFFFF
     &__main
         display: block
@@ -50,6 +50,7 @@ body
         animation-duration: 1.7s
         animation-delay: 1s
         animation-timing-function: ease
+        backface-visibility: hidden
     &__secondary
         display: block
         font-weight: 100
@@ -60,6 +61,27 @@ body
         animation-duration: 1.7s
         animation-delay: 1s
         animation-timing-function: ease
+        backface-visibility: hidden
+        margin-bottom: 65px
+
+
+.btn
+    &:link, &:visited
+        text-transform: uppercase
+        text-decoration: none
+        color: #777777
+        padding: 15px 40px
+        background: white
+        border-radius: 50px
+        display: inline-block
+        transition: all .3s
+    &:hover
+        transform: translateY(-4px)
+        box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.3))
+    &:active
+        transform: translateY(-2px)
+        box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.1))
+        
 
 
 @keyframes leftToRight
