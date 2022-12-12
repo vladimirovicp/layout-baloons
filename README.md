@@ -9,3 +9,5 @@
 > * [Генератор кода Clip-path](https://bennettfeely.com/clippy/)
 > * [Методология БЭМ](https://ru.bem.info/methodology/)
 > * [все про CSS анимацию @kayframe](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+> * [Нормализация поведения анимации](https://developer.mozilla.org/ru/docs/Web/CSS/backface-visibility)
+> * [Все о свойстве transform](https://developer.mozilla.org/ru/docs/Web/CSS/transform)
