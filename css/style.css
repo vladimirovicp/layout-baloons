@@ -1,16 +1,20 @@
-* {
+*, ::after, ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #777777;
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding: 50px;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  padding: 5rem;
   background-color: #ffffff;
 }
 
@@ -27,10 +31,10 @@ body {
 }
 .header__logo {
   position: absolute;
-  left: 50px;
-  top: 50px;
-  width: 56px;
-  height: 70px;
+  left: 5rem;
+  top: 5rem;
+  width: 5.6rem;
+  height: 7rem;
 }
 .header__box {
   position: absolute;
@@ -47,11 +51,11 @@ body {
 .title-first__main {
   display: block;
   font-weight: 800;
-  font-size: 50px;
-  line-height: 60px;
-  letter-spacing: 10px;
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: 1rem;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   -webkit-animation-name: leftToRight;
           animation-name: leftToRight;
   -webkit-animation-duration: 1.7s;
@@ -66,9 +70,9 @@ body {
 .title-first__secondary {
   display: block;
   font-weight: 100;
-  font-size: 40px;
-  line-height: 48px;
-  letter-spacing: 5px;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.5rem;
   -webkit-animation-name: rightToLeft;
           animation-name: rightToLeft;
   -webkit-animation-duration: 1.7s;
@@ -79,23 +83,24 @@ body {
           animation-timing-function: ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  margin-bottom: 65px;
+  margin-bottom: 6.5rem;
 }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   color: #777777;
-  padding: 15px 40px;
+  padding: 1.5rem 4rem;
   background: white;
-  border-radius: 50px;
+  border-radius: 5rem;
   display: inline-block;
   transition: all 0.3s;
   position: relative;
+  font-size: 2rem;
 }
 .btn:hover {
-  transform: translateY(-4px);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(-0.4rem);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 .btn:hover::after {
   opacity: 0;
@@ -103,14 +108,14 @@ body {
 }
 .btn:active {
   transform: translateY(-2px);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 .btn::after {
   content: "";
   background: white;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 5rem;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -128,7 +133,7 @@ body {
 @-webkit-keyframes btnToUp {
   0% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(5rem);
   }
   100% {
     opacity: 1;
@@ -139,7 +144,7 @@ body {
 @keyframes btnToUp {
   0% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(5rem);
   }
   100% {
     opacity: 1;
@@ -149,10 +154,10 @@ body {
 @-webkit-keyframes leftToRight {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   80% {
-    transform: translate(20px);
+    transform: translate(2rem);
   }
   100% {
     opacity: 1;
@@ -162,10 +167,10 @@ body {
 @keyframes leftToRight {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   80% {
-    transform: translate(20px);
+    transform: translate(2rem);
   }
   100% {
     opacity: 1;
@@ -175,10 +180,10 @@ body {
 @-webkit-keyframes rightToLeft {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   80% {
-    transform: translate(-10px);
+    transform: translate(-1rem);
   }
   100% {
     opacity: 1;
@@ -188,10 +193,10 @@ body {
 @keyframes rightToLeft {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   80% {
-    transform: translate(-10px);
+    transform: translate(-1rem);
   }
   100% {
     opacity: 1;

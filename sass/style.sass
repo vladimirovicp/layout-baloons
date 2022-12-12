@@ -1,15 +1,20 @@
-*
+*, ::after, ::before
     margin: 0
     padding: 0
     box-sizing: border-box
+
+html
+    font-size: 62.5%
+
+    // (10px / 16px) * 100 = 62.5%
 
 body 
     font-family: 'Lato',sans-serif
     font-weight: 400
     color: #777777
-    font-size: 16px
-    letter-spacing: 2px
-    padding: 50px
+    font-size: 1.6rem
+    letter-spacing: .2rem
+    padding: 5rem
     background-color: #ffffff
 
 .container
@@ -24,10 +29,10 @@ body
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
     &__logo
         position: absolute
-        left: 50px
-        top: 50px
-        width: 56px
-        height: 70px
+        left: 5rem
+        top: 5rem
+        width: 5.6rem
+        height: 7rem
     &__box
         position: absolute
         width: 100%
@@ -41,11 +46,11 @@ body
     &__main
         display: block
         font-weight: 800
-        font-size: 50px
-        line-height: 60px
-        letter-spacing: 10px
+        font-size: 5rem
+        line-height: 6rem
+        letter-spacing: 1rem
         text-transform: uppercase
-        margin-bottom: 10px
+        margin-bottom: 1rem
         animation-name: leftToRight
         animation-duration: 1.7s
         animation-delay: 1s
@@ -54,15 +59,15 @@ body
     &__secondary
         display: block
         font-weight: 100
-        font-size: 40px
-        line-height: 48px
-        letter-spacing: 5px
+        font-size: 4rem
+        line-height: 4.8rem
+        letter-spacing: .5rem
         animation-name: rightToLeft
         animation-duration: 1.7s
         animation-delay: 1s
         animation-timing-function: ease
         backface-visibility: hidden
-        margin-bottom: 65px
+        margin-bottom: 6.5rem
 
 
 .btn
@@ -70,27 +75,28 @@ body
         text-transform: uppercase
         text-decoration: none
         color: #777777
-        padding: 15px 40px
+        padding: 1.5rem 4rem
         background: white
-        border-radius: 50px
+        border-radius: 5rem
         display: inline-block
         transition: all .3s
         position: relative
+        font-size: 2rem
     &:hover
-        transform: translateY(-4px)
-        box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.3))
+        transform: translateY(-.4rem)
+        box-shadow:(0 .4rem .4rem rgba(0, 0, 0, 0.3))
         &::after
             opacity: 0
             transform: scaleX(1.5) scaleY(1.7)
     &:active
         transform: translateY(-2px)
-        box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.1))
+        box-shadow:(0 .4rem .4rem rgba(0, 0, 0, 0.1))
     &::after
         content: ""
         background: white
         width: 100%
         height: 100%
-        border-radius: 50px
+        border-radius: 5rem
         display: inline-block
         position: absolute
         top: 0
@@ -106,7 +112,7 @@ body
 @keyframes btnToUp
     0%
         opacity: 0
-        transform: translateY(50px)
+        transform: translateY(5rem)
 
     100%
         opacity: 1
@@ -115,9 +121,9 @@ body
 @keyframes leftToRight
     0%
         opacity: 0
-        transform: translateX(-100px)
+        transform: translateX(-10rem)
     80%
-        transform: translate(20px)
+        transform: translate(2rem)
     100%
         opacity: 1
         transform: translateX(0)
@@ -125,16 +131,13 @@ body
 @keyframes rightToLeft
     0%
         opacity: 0
-        transform: translateX(100px)
+        transform: translateX(10rem)
     80%
-        transform: translate(-10px)
+        transform: translate(-1rem)
     100%
         opacity: 1
         transform: translateX(0)
-// .hero
-//     height:745px
-//     background: linear-gradient(286.73deg, rgba(216, 216, 216, 0.8) -0.77%, rgba(38, 32, 24, 0.8) 100.03%), url(../img/hero/hero_bg.jpg),  center / cover no-repeat
-//     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
+
 
 
 
