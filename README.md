@@ -6,4 +6,6 @@
 > * [baloons Figma](https://www.figma.com/file/mcesUlxmkTT6y7OJ60CaEO/baloons?node-id=1%3A16&t=nnHAKfZxx0Qv5IiD-0)
 
 > * Live Sass Compiler
-
+> * [Генератор кода Clip-path](https://bennettfeely.com/clippy/)
+> * [Методология БЭМ](https://ru.bem.info/methodology/)
+> * [все про CSS анимацию @kayframe](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
