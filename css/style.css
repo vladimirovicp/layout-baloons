@@ -138,6 +138,17 @@ body {
   margin-bottom: 6.5rem;
 }
 
+.title-secondary {
+  font-size: 3.6rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(161, 79, 3, 0.7) 99.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
@@ -249,4 +260,8 @@ body {
 }
 [class^=col-]:not(:last-child) {
   margin-right: 6rem;
+}
+
+.section-about {
+  padding-top: 8rem;
 }/*# sourceMappingURL=style.css.map */
