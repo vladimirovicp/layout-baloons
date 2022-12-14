@@ -242,7 +242,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.9rem;
   letter-spacing: 0.2rem;
-  color: #777777;
+  color: #BA8554;
   text-decoration: none;
   padding: 1rem;
   border-bottom: 1px solid #A14F03;
@@ -257,6 +257,38 @@ body {
 }
 .btn-text:active {
   transform: translateY(0rem);
+}
+
+.compositions {
+  position: relative;
+}
+.compositions__photo {
+  position: absolute;
+  width: 55%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  outline-offset: 1rem;
+}
+.compositions__photo_n1 {
+  top: 0;
+  left: 0;
+}
+.compositions__photo_n2 {
+  top: 2rem;
+  right: 0;
+}
+.compositions__photo_n3 {
+  top: 13rem;
+  left: 10rem;
+}
+.compositions__photo:hover {
+  outline: 1rem solid #BA8554;
+  transform: scale(1.1);
+  z-index: 20;
+}
+.compositions:hover .compositions__photo:not(:hover) {
+  transform: scale(0.95);
 }
 
 .header {
