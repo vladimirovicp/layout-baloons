@@ -11,4 +11,7 @@
 > * [все про CSS анимацию @kayframe](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 > * [Нормализация поведения анимации](https://developer.mozilla.org/ru/docs/Web/CSS/backface-visibility)
 > * [Все о свойстве transform](https://developer.mozilla.org/ru/docs/Web/CSS/transform)
+> * [Символы HTML](https://css-tricks.com/snippets/html/glyphs/)
+> * [Все о селекторах](https://itchief.ru/html-and-css/selectors)
 > * [Создание иконочного шрифта](https://icomoon.io/)
+> * [Как работает свойство perspective](https://webformyself.com/kak-rabotaet-css-perspective/)
