@@ -12,12 +12,14 @@
         width: 100%
         backface-visibility: hidden
         box-shadow: $box-shadow
+        border-radius: .5rem
+        overflow: hidden
         &_front
            
         &_back
             background: green
             transform: rotateY(180deg)
-            background: linear-gradient(120deg, rgba($color-brown-light, 0.7) 0.03%, rgba($color-brown-dark, 0.7) 99.94%)
+            background: linear-gradient(120deg, $color-brown-light,$color-brown-dark)
 
     &:hover &__side_front
         transform: rotateY(-180deg)
@@ -27,8 +29,14 @@
     &__img
         background-blend-mode: hard-light
         height: 21rem
-        background: $color-brown-light url(../img/tour/tour-1.jpg) center / cover no-repeat
+        
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
+        &_1
+            background: $color-brown-light url(../img/tour/tour-1.jpg) center / cover no-repeat
+        &_2
+            background: $color-brown-light url(../img/tour/tour-2.jpg) center / cover no-repeat
+        &_3
+            background: $color-brown-light url(../img/tour/tour-3.jpg) center / cover no-repeat
     &__title
         font-weight: 300
         font-size: 2.8rem
@@ -65,3 +73,23 @@
                 text-align: center
                 &:not(:last-child)
                     margin-bottom: 2rem
+    
+    &__backSide-box
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+    &__text
+        margin-bottom: 8rem
+        letter-spacing: .2rem
+        text-transform: uppercase
+        text-align: center
+        color: $color-white
+        &_1
+            font-size: $font-size-paragraph
+            font-weight: 300
+        &_2
+            font-size: 6rem
+            font-weight: 500
+
+            
