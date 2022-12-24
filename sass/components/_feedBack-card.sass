@@ -12,10 +12,34 @@
         height: 15rem
         background: green
         float: left
-        border-radius:100rem
+        border-radius: 50%
         shape-outside: circle(50% at 50% 50%)
         -webkit-shape-outside: circle(50% at 50% 50%)
         margin-right: 4rem
         overflow: hidden
+        position: relative
         img
             height: 100%
+            transform: scale(1.2)
+            transition: all .5s
+    &__name
+        font-weight: 400
+        font-size: 2.4rem
+        line-height: 2.9rem
+        text-align: center
+        letter-spacing: .2rem
+        color: $color-white
+        text-transform: uppercase
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -20%)
+        opacity: 0
+        transition: all .5s
+    &:hover &__name
+        transform: translate(-50%, -50%)
+        opacity: 1
+    &:hover img
+        transform: scale(1)
+        filter: blur(.3rem) brightness(70%)
+

@@ -15,3 +15,37 @@
 > * [Все о селекторах](https://itchief.ru/html-and-css/selectors)
 > * [Создание иконочного шрифта](https://icomoon.io/)
 > * [Как работает свойство perspective](https://webformyself.com/kak-rabotaet-css-perspective/)
+
+## Настройки Плагина SASS - Live Sass Compiler
+
+> *  Файл -> настройки -> параметры
+> * ищем Extensions(расширения), а там Live Sass Compiler
+> * Live Sass Compile › Settings: Formats
+>    Set your exported CSS Styles, Formats & save location.
+>    изменить setings.json
+>
+>    {
+>    "liveSassCompile.settings.formats": [
+>    
+>        {
+>            "format": "expanded",
+>            "extensionName": ".css",
+>            "savePath": null,
+>            "savePathReplacementPairs": null
+>        }
+>    ]
+>}
+>
+> меняем на
+>
+>{
+>    "liveSassCompile.settings.formats": [
+>
+>        {
+>            "format": "expanded",
+>            "extensionName": ".css",
+>            "savePath": "/css",
+>            "savePathReplacementPairs": null
+>        }
+>    ]
+>}
