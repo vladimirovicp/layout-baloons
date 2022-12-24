@@ -16,6 +16,21 @@
 > * [Создание иконочного шрифта](https://icomoon.io/)
 > * [Как работает свойство perspective](https://webformyself.com/kak-rabotaet-css-perspective/)
 
+> * [Символы HTML](https://css-tricks.com/snippets/html/glyphs/)
+> * [Генерация иконочных шрифтов](https://icomoon.io/)
+> * [Все о селекторах](https://itchief.ru/html-and-css/selectors)
+> * [Как работает свойство perspective](https://webformyself.com/kak-rabotaet-css-perspective/)
+> * [Все свойства filter](https://developer.mozilla.org/ru/docs/Web/CSS/filter)
+> * [видео-сток](https://coverr.co/videos/hot-air-balloons-near-mountains-u0VbSZox6V)
+> * [Атрибуты тега video](https://developer.mozilla.org/ru/docs/Web/CSS/object-fit)
+> * [Конвертер видео в формат webm](https://video.online-convert.com/ru/convert-to-webm)
+
+> * [Атрибуты тега form](https://developer.mozilla.org/ru/docs/Web/HTML/Element/form)
+> * [Атрибуты тега Input](https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input)
+> * [Генератор скорости анимации](https://cubic-bezier.com/#.17,.67,.83,.67)
+> * [Готовые примеры анимации](https://easings.net/ru#easeInQuart)
+
+
 ## Настройки Плагина SASS - Live Sass Compiler
 
 > *  Файл -> настройки -> параметры
