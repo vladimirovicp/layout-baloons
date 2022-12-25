@@ -494,6 +494,19 @@ body {
   z-index: -1;
 }
 
+.book {
+  height: 50rem;
+  background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 57%, rgba(186, 133, 84, 0.9) 57%, rgba(161, 79, 3, 0.9) 100%), url(../img/form/bg-form.jpg) center/cover no-repeat;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.form {
+  width: 60%;
+  padding-top: 5rem;
+}
+
 .header {
   position: relative;
   height: 95vh;
@@ -584,4 +597,9 @@ body {
   position: relative;
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+.section-book {
+  padding: 10rem;
+  background: linear-gradient(90deg, #BA8554, #A14F03);
 }/*# sourceMappingURL=style.css.map */

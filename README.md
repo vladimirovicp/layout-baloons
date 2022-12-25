@@ -18,6 +18,7 @@
 
 > * [Символы HTML](https://css-tricks.com/snippets/html/glyphs/)
 > * [Генерация иконочных шрифтов](https://icomoon.io/)
+> * [Генерация градиента](https://cssgradient.io/)
 > * [Все о селекторах](https://itchief.ru/html-and-css/selectors)
 > * [Как работает свойство perspective](https://webformyself.com/kak-rabotaet-css-perspective/)
 > * [Все свойства filter](https://developer.mozilla.org/ru/docs/Web/CSS/filter)
