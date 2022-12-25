@@ -8,3 +8,46 @@
 .form
     width: 60%
     padding-top: 5rem
+    padding-left: 5rem
+    &__group:not(:last-child)
+        margin-bottom: 5rem
+        
+
+    &__input
+        font-size: $font-size-paragraph
+        letter-spacing: .2rem
+        font-weight: 400
+        color: $color-black
+        padding: 2rem 0 2rem 2rem
+        background-color: $color-white
+        border: none
+        border-bottom: .2rem solid transparent
+        border-radius: .5rem
+        width: 55%
+        &:focus
+            outline: none
+            border-bottom: .3rem solid #66D763
+            box-shadow: $box-shadow
+        &:focus:invalid
+            border-bottom: .3rem solid #D76363
+    &__input:placeholder-shown + &__label
+        opacity: 0
+        visibility: hidden
+        transform: translateY(-3rem)
+
+    &__label
+        font-style: $font-size-paragraph
+        letter-spacing: .2rem
+        font-weight: 400
+        display: block
+        margin-top: 1rem
+        margin-left: 1.5rem
+        transition: .7s all
+        
+
+        
+
+
+            
+            
+
